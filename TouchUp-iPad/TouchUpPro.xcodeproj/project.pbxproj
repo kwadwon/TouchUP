@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34448578166EED1A00C6386A /* red-arrow-pointing-down_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 34448576166EED1A00C6386A /* red-arrow-pointing-down_red.png */; };
+		34448579166EED1A00C6386A /* uparrow_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 34448577166EED1A00C6386A /* uparrow_red.png */; };
+		3444857D166EEED300C6386A /* arrow_down_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 3444857B166EEED300C6386A /* arrow_down_blue.png */; };
+		3444857E166EEED300C6386A /* arrow_glossy_up_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 3444857C166EEED300C6386A /* arrow_glossy_up_blue.png */; };
+		34448580166EF12000C6386A /* pua2 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 3444857F166EF12000C6386A /* pua2 copy.png */; };
+		34448582166EF4A000C6386A /* pua3 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 34448581166EF4A000C6386A /* pua3 copy.png */; };
+		34448584166EF55E00C6386A /* pink-down-arrow2 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 34448583166EF55E00C6386A /* pink-down-arrow2 copy.png */; };
+		34A1C9431663C02A0052BA8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A1C9421663C02A0052BA8C /* UIKit.framework */; };
+		34A1C9451663C02A0052BA8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A1C9441663C02A0052BA8C /* Foundation.framework */; };
+		34A1C9471663C02A0052BA8C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A1C9461663C02A0052BA8C /* CoreGraphics.framework */; };
+		34A1C94D1663C02A0052BA8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34A1C94B1663C02A0052BA8C /* InfoPlist.strings */; };
+		34A1C94F1663C02A0052BA8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A1C94E1663C02A0052BA8C /* main.m */; };
+		34A1C9531663C02A0052BA8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A1C9521663C02A0052BA8C /* AppDelegate.m */; };
+		34A1C9551663C02A0052BA8C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 34A1C9541663C02A0052BA8C /* Default.png */; };
+		34A1C9571663C02A0052BA8C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34A1C9561663C02A0052BA8C /* Default@2x.png */; };
+		34A1C9591663C02A0052BA8C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34A1C9581663C02A0052BA8C /* Default-568h@2x.png */; };
+		34A1C95C1663C02A0052BA8C /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A1C95A1663C02A0052BA8C /* MainStoryboard_iPhone.storyboard */; };
+		34A1C95F1663C02A0052BA8C /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A1C95D1663C02A0052BA8C /* MainStoryboard_iPad.storyboard */; };
+		34A1C9621663C02A0052BA8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A1C9611663C02A0052BA8C /* ViewController.m */; };
+		34A1C96A1663C02B0052BA8C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A1C9691663C02B0052BA8C /* SenTestingKit.framework */; };
+		34A1C96B1663C02B0052BA8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A1C9421663C02A0052BA8C /* UIKit.framework */; };
+		34A1C96C1663C02B0052BA8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A1C9441663C02A0052BA8C /* Foundation.framework */; };
+		34A1C9741663C02B0052BA8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34A1C9721663C02B0052BA8C /* InfoPlist.strings */; };
+		34A1C9771663C02B0052BA8C /* TouchUpProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A1C9761663C02B0052BA8C /* TouchUpProTests.m */; };
+		34A1C9811663C11A0052BA8C /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 34A1C9801663C11A0052BA8C /* Default-Landscape~ipad.png */; };
+		34A1C9831663C12F0052BA8C /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 34A1C9821663C12F0052BA8C /* Default-Portrait~ipad.png */; };
+		34A1C9851663C8290052BA8C /* yellow-rose-800.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 34A1C9841663C8290052BA8C /* yellow-rose-800.jpg */; };
+		34A1C9881663C8F60052BA8C /* blue roses pictures (2).png in Resources */ = {isa = PBXBuildFile; fileRef = 34A1C9861663C8F60052BA8C /* blue roses pictures (2).png */; };
+		34A1C9891663C8F60052BA8C /* blue roses pictures (1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 34A1C9871663C8F60052BA8C /* blue roses pictures (1).jpg */; };
+		34A1C98B1663C9670052BA8C /* pink-arrow-down.png in Resources */ = {isa = PBXBuildFile; fileRef = 34A1C98A1663C9670052BA8C /* pink-arrow-down.png */; };
+		34A1C98D1663CABE0052BA8C /* pink-down-arrow2.png in Resources */ = {isa = PBXBuildFile; fileRef = 34A1C98C1663CABE0052BA8C /* pink-down-arrow2.png */; };
+		34A1C98F1663CD160052BA8C /* yellow-background-edit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 34A1C98E1663CD160052BA8C /* yellow-background-edit.jpg */; };
+		34A1C9911663CEFA0052BA8C /* pink-up-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 34A1C9901663CEFA0052BA8C /* pink-up-arrow.png */; };
+		34A1C9931663D0770052BA8C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A1C9921663D0770052BA8C /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34A1C96D1663C02B0052BA8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34A1C9351663C02A0052BA8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34A1C93D1663C02A0052BA8C;
+			remoteInfo = TouchUpPro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34448576166EED1A00C6386A /* red-arrow-pointing-down_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "red-arrow-pointing-down_red.png"; path = "../../../../../Downloads/red-arrow-pointing-down_red.png"; sourceTree = "<group>"; };
+		34448577166EED1A00C6386A /* uparrow_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = uparrow_red.png; path = ../../../../../Downloads/uparrow_red.png; sourceTree = "<group>"; };
+		3444857B166EEED300C6386A /* arrow_down_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow_down_blue.png; path = ../../../../../Downloads/arrow_down_blue.png; sourceTree = "<group>"; };
+		3444857C166EEED300C6386A /* arrow_glossy_up_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow_glossy_up_blue.png; path = ../../../../../Downloads/arrow_glossy_up_blue.png; sourceTree = "<group>"; };
+		3444857F166EF12000C6386A /* pua2 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pua2 copy.png"; path = "../../../../../Downloads/pua2 copy.png"; sourceTree = "<group>"; };
+		34448581166EF4A000C6386A /* pua3 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pua3 copy.png"; path = "../../../../../Downloads/pua3 copy.png"; sourceTree = "<group>"; };
+		34448583166EF55E00C6386A /* pink-down-arrow2 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pink-down-arrow2 copy.png"; path = "../../../../../Downloads/pink-down-arrow2 copy.png"; sourceTree = "<group>"; };
+		34A1C93E1663C02A0052BA8C /* TouchUpPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchUpPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34A1C9421663C02A0052BA8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		34A1C9441663C02A0052BA8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		34A1C9461663C02A0052BA8C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		34A1C94A1663C02A0052BA8C /* TouchUpPro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchUpPro-Info.plist"; sourceTree = "<group>"; };
+		34A1C94C1663C02A0052BA8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34A1C94E1663C02A0052BA8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34A1C9501663C02A0052BA8C /* TouchUpPro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TouchUpPro-Prefix.pch"; sourceTree = "<group>"; };
+		34A1C9511663C02A0052BA8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34A1C9521663C02A0052BA8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34A1C9541663C02A0052BA8C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		34A1C9561663C02A0052BA8C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		34A1C9581663C02A0052BA8C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		34A1C95B1663C02A0052BA8C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		34A1C95E1663C02A0052BA8C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		34A1C9601663C02A0052BA8C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		34A1C9611663C02A0052BA8C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		34A1C9681663C02B0052BA8C /* TouchUpProTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchUpProTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34A1C9691663C02B0052BA8C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		34A1C9711663C02B0052BA8C /* TouchUpProTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchUpProTests-Info.plist"; sourceTree = "<group>"; };
+		34A1C9731663C02B0052BA8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34A1C9751663C02B0052BA8C /* TouchUpProTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchUpProTests.h; sourceTree = "<group>"; };
+		34A1C9761663C02B0052BA8C /* TouchUpProTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchUpProTests.m; sourceTree = "<group>"; };
+		34A1C9801663C11A0052BA8C /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape~ipad.png"; path = "../Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		34A1C9821663C12F0052BA8C /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait~ipad.png"; path = "../Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		34A1C9841663C8290052BA8C /* yellow-rose-800.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "yellow-rose-800.jpg"; path = "../../../../../Downloads/yellow-rose-800.jpg"; sourceTree = "<group>"; };
+		34A1C9861663C8F60052BA8C /* blue roses pictures (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blue roses pictures (2).png"; path = "../../../../../Downloads/blue roses pictures (2).png"; sourceTree = "<group>"; };
+		34A1C9871663C8F60052BA8C /* blue roses pictures (1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "blue roses pictures (1).jpg"; path = "../../../../../Downloads/blue roses pictures (1).jpg"; sourceTree = "<group>"; };
+		34A1C98A1663C9670052BA8C /* pink-arrow-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pink-arrow-down.png"; path = "../../../../../Downloads/pink-arrow-down.png"; sourceTree = "<group>"; };
+		34A1C98C1663CABE0052BA8C /* pink-down-arrow2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pink-down-arrow2.png"; path = "../../../../../Downloads/pink-down-arrow2.png"; sourceTree = "<group>"; };
+		34A1C98E1663CD160052BA8C /* yellow-background-edit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "yellow-background-edit.jpg"; path = "../../../../../Downloads/yellow-background-edit.jpg"; sourceTree = "<group>"; };
+		34A1C9901663CEFA0052BA8C /* pink-up-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pink-up-arrow.png"; path = "../../../../../Downloads/pink-up-arrow.png"; sourceTree = "<group>"; };
+		34A1C9921663D0770052BA8C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34A1C93B1663C02A0052BA8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A1C9931663D0770052BA8C /* QuartzCore.framework in Frameworks */,
+				34A1C9431663C02A0052BA8C /* UIKit.framework in Frameworks */,
+				34A1C9451663C02A0052BA8C /* Foundation.framework in Frameworks */,
+				34A1C9471663C02A0052BA8C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A1C9641663C02B0052BA8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A1C96A1663C02B0052BA8C /* SenTestingKit.framework in Frameworks */,
+				34A1C96B1663C02B0052BA8C /* UIKit.framework in Frameworks */,
+				34A1C96C1663C02B0052BA8C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34A1C9331663C02A0052BA8C = {
+			isa = PBXGroup;
+			children = (
+				34A1C9481663C02A0052BA8C /* TouchUpPro */,
+				34A1C96F1663C02B0052BA8C /* TouchUpProTests */,
+				34A1C9411663C02A0052BA8C /* Frameworks */,
+				34A1C93F1663C02A0052BA8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34A1C93F1663C02A0052BA8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34A1C93E1663C02A0052BA8C /* TouchUpPro.app */,
+				34A1C9681663C02B0052BA8C /* TouchUpProTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34A1C9411663C02A0052BA8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34A1C9921663D0770052BA8C /* QuartzCore.framework */,
+				34A1C9421663C02A0052BA8C /* UIKit.framework */,
+				34A1C9441663C02A0052BA8C /* Foundation.framework */,
+				34A1C9461663C02A0052BA8C /* CoreGraphics.framework */,
+				34A1C9691663C02B0052BA8C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34A1C9481663C02A0052BA8C /* TouchUpPro */ = {
+			isa = PBXGroup;
+			children = (
+				34A1C9511663C02A0052BA8C /* AppDelegate.h */,
+				34A1C9521663C02A0052BA8C /* AppDelegate.m */,
+				34A1C95A1663C02A0052BA8C /* MainStoryboard_iPhone.storyboard */,
+				34A1C95D1663C02A0052BA8C /* MainStoryboard_iPad.storyboard */,
+				34A1C9601663C02A0052BA8C /* ViewController.h */,
+				34A1C9611663C02A0052BA8C /* ViewController.m */,
+				34A1C9491663C02A0052BA8C /* Supporting Files */,
+			);
+			path = TouchUpPro;
+			sourceTree = "<group>";
+		};
+		34A1C9491663C02A0052BA8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34448583166EF55E00C6386A /* pink-down-arrow2 copy.png */,
+				34448581166EF4A000C6386A /* pua3 copy.png */,
+				3444857F166EF12000C6386A /* pua2 copy.png */,
+				3444857B166EEED300C6386A /* arrow_down_blue.png */,
+				3444857C166EEED300C6386A /* arrow_glossy_up_blue.png */,
+				34448576166EED1A00C6386A /* red-arrow-pointing-down_red.png */,
+				34448577166EED1A00C6386A /* uparrow_red.png */,
+				34A1C9901663CEFA0052BA8C /* pink-up-arrow.png */,
+				34A1C98E1663CD160052BA8C /* yellow-background-edit.jpg */,
+				34A1C98C1663CABE0052BA8C /* pink-down-arrow2.png */,
+				34A1C98A1663C9670052BA8C /* pink-arrow-down.png */,
+				34A1C9861663C8F60052BA8C /* blue roses pictures (2).png */,
+				34A1C9871663C8F60052BA8C /* blue roses pictures (1).jpg */,
+				34A1C9841663C8290052BA8C /* yellow-rose-800.jpg */,
+				34A1C9821663C12F0052BA8C /* Default-Portrait~ipad.png */,
+				34A1C9801663C11A0052BA8C /* Default-Landscape~ipad.png */,
+				34A1C94A1663C02A0052BA8C /* TouchUpPro-Info.plist */,
+				34A1C94B1663C02A0052BA8C /* InfoPlist.strings */,
+				34A1C94E1663C02A0052BA8C /* main.m */,
+				34A1C9501663C02A0052BA8C /* TouchUpPro-Prefix.pch */,
+				34A1C9541663C02A0052BA8C /* Default.png */,
+				34A1C9561663C02A0052BA8C /* Default@2x.png */,
+				34A1C9581663C02A0052BA8C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34A1C96F1663C02B0052BA8C /* TouchUpProTests */ = {
+			isa = PBXGroup;
+			children = (
+				34A1C9751663C02B0052BA8C /* TouchUpProTests.h */,
+				34A1C9761663C02B0052BA8C /* TouchUpProTests.m */,
+				34A1C9701663C02B0052BA8C /* Supporting Files */,
+			);
+			path = TouchUpProTests;
+			sourceTree = "<group>";
+		};
+		34A1C9701663C02B0052BA8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34A1C9711663C02B0052BA8C /* TouchUpProTests-Info.plist */,
+				34A1C9721663C02B0052BA8C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34A1C93D1663C02A0052BA8C /* TouchUpPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34A1C97A1663C02B0052BA8C /* Build configuration list for PBXNativeTarget "TouchUpPro" */;
+			buildPhases = (
+				34A1C93A1663C02A0052BA8C /* Sources */,
+				34A1C93B1663C02A0052BA8C /* Frameworks */,
+				34A1C93C1663C02A0052BA8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchUpPro;
+			productName = TouchUpPro;
+			productReference = 34A1C93E1663C02A0052BA8C /* TouchUpPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34A1C9671663C02B0052BA8C /* TouchUpProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34A1C97D1663C02B0052BA8C /* Build configuration list for PBXNativeTarget "TouchUpProTests" */;
+			buildPhases = (
+				34A1C9631663C02B0052BA8C /* Sources */,
+				34A1C9641663C02B0052BA8C /* Frameworks */,
+				34A1C9651663C02B0052BA8C /* Resources */,
+				34A1C9661663C02B0052BA8C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34A1C96E1663C02B0052BA8C /* PBXTargetDependency */,
+			);
+			name = TouchUpProTests;
+			productName = TouchUpProTests;
+			productReference = 34A1C9681663C02B0052BA8C /* TouchUpProTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34A1C9351663C02A0052BA8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "kwadwo nyarko";
+			};
+			buildConfigurationList = 34A1C9381663C02A0052BA8C /* Build configuration list for PBXProject "TouchUpPro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 34A1C9331663C02A0052BA8C;
+			productRefGroup = 34A1C93F1663C02A0052BA8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34A1C93D1663C02A0052BA8C /* TouchUpPro */,
+				34A1C9671663C02B0052BA8C /* TouchUpProTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34A1C93C1663C02A0052BA8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A1C94D1663C02A0052BA8C /* InfoPlist.strings in Resources */,
+				34A1C9551663C02A0052BA8C /* Default.png in Resources */,
+				34A1C9571663C02A0052BA8C /* Default@2x.png in Resources */,
+				34A1C9591663C02A0052BA8C /* Default-568h@2x.png in Resources */,
+				34A1C95C1663C02A0052BA8C /* MainStoryboard_iPhone.storyboard in Resources */,
+				34A1C95F1663C02A0052BA8C /* MainStoryboard_iPad.storyboard in Resources */,
+				34A1C9811663C11A0052BA8C /* Default-Landscape~ipad.png in Resources */,
+				34A1C9831663C12F0052BA8C /* Default-Portrait~ipad.png in Resources */,
+				34A1C9851663C8290052BA8C /* yellow-rose-800.jpg in Resources */,
+				34A1C9881663C8F60052BA8C /* blue roses pictures (2).png in Resources */,
+				34A1C9891663C8F60052BA8C /* blue roses pictures (1).jpg in Resources */,
+				34A1C98B1663C9670052BA8C /* pink-arrow-down.png in Resources */,
+				34A1C98D1663CABE0052BA8C /* pink-down-arrow2.png in Resources */,
+				34A1C98F1663CD160052BA8C /* yellow-background-edit.jpg in Resources */,
+				34A1C9911663CEFA0052BA8C /* pink-up-arrow.png in Resources */,
+				34448578166EED1A00C6386A /* red-arrow-pointing-down_red.png in Resources */,
+				34448579166EED1A00C6386A /* uparrow_red.png in Resources */,
+				3444857D166EEED300C6386A /* arrow_down_blue.png in Resources */,
+				3444857E166EEED300C6386A /* arrow_glossy_up_blue.png in Resources */,
+				34448580166EF12000C6386A /* pua2 copy.png in Resources */,
+				34448582166EF4A000C6386A /* pua3 copy.png in Resources */,
+				34448584166EF55E00C6386A /* pink-down-arrow2 copy.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A1C9651663C02B0052BA8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A1C9741663C02B0052BA8C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34A1C9661663C02B0052BA8C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34A1C93A1663C02A0052BA8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A1C94F1663C02A0052BA8C /* main.m in Sources */,
+				34A1C9531663C02A0052BA8C /* AppDelegate.m in Sources */,
+				34A1C9621663C02A0052BA8C /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A1C9631663C02B0052BA8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A1C9771663C02B0052BA8C /* TouchUpProTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34A1C96E1663C02B0052BA8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34A1C93D1663C02A0052BA8C /* TouchUpPro */;
+			targetProxy = 34A1C96D1663C02B0052BA8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34A1C94B1663C02A0052BA8C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34A1C94C1663C02A0052BA8C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		34A1C95A1663C02A0052BA8C /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34A1C95B1663C02A0052BA8C /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		34A1C95D1663C02A0052BA8C /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34A1C95E1663C02A0052BA8C /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		34A1C9721663C02B0052BA8C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34A1C9731663C02B0052BA8C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34A1C9781663C02B0052BA8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34A1C9791663C02B0052BA8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34A1C97B1663C02B0052BA8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchUpPro/TouchUpPro-Prefix.pch";
+				INFOPLIST_FILE = "TouchUpPro/TouchUpPro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		34A1C97C1663C02B0052BA8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchUpPro/TouchUpPro-Prefix.pch";
+				INFOPLIST_FILE = "TouchUpPro/TouchUpPro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		34A1C97E1663C02B0052BA8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TouchUpPro.app/TouchUpPro";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchUpPro/TouchUpPro-Prefix.pch";
+				INFOPLIST_FILE = "TouchUpProTests/TouchUpProTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		34A1C97F1663C02B0052BA8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TouchUpPro.app/TouchUpPro";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchUpPro/TouchUpPro-Prefix.pch";
+				INFOPLIST_FILE = "TouchUpProTests/TouchUpProTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34A1C9381663C02A0052BA8C /* Build configuration list for PBXProject "TouchUpPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A1C9781663C02B0052BA8C /* Debug */,
+				34A1C9791663C02B0052BA8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34A1C97A1663C02B0052BA8C /* Build configuration list for PBXNativeTarget "TouchUpPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A1C97B1663C02B0052BA8C /* Debug */,
+				34A1C97C1663C02B0052BA8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34A1C97D1663C02B0052BA8C /* Build configuration list for PBXNativeTarget "TouchUpProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A1C97E1663C02B0052BA8C /* Debug */,
+				34A1C97F1663C02B0052BA8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34A1C9351663C02A0052BA8C /* Project object */;
+}
